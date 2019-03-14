@@ -2,32 +2,56 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  background-color: purple;
   color: white;
+  font-size: 30px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin: 0 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+  border: none;
+}
+
+input {
+  margin:20px 10px;
+  height: 20px;
+  width: 300px;
+  font-size: 20px; 
+  font-weight: bold
+}
+
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  color: White;
+  letter-spacing: 1px;
+}
+ 
+.meme > img {
+  width: 60%;
+  height: 45%;
+  margin: 0 20%;
 }
