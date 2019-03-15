@@ -45,8 +45,7 @@ input {
   position: absolute;
   width: 80%;
   text-align: center;
-  left: 50%;
-  color: White;
+  color: white;
   letter-spacing: 1px;
 }
  
@@ -54,4 +53,14 @@ input {
   width: 60%;
   height: 45%;
   margin: 0 20%;
+}
+
+.top {
+  margin: 3% ;
+  font-size: 30px;
+}
+
+.bottom {
+  margin-top: 30%;
+  font-size: 30px;
 }
